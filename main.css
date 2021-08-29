@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+.left-container {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  padding: 0 1em;
+}
+
+nav > div > a > img {
+  width: 80%;
+}
+
+.logo {
+  width: 20%;
+  max-width: 40%;
+}
+
+.RC-items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+}
+
+.ls-items {
+  text-decoration: none;
+  margin-right: 2em;
+  font-weight: 600;
+  margin-top: 0.8em;
+}
+.ls-items-contact > button {
+  outline: none;
+  padding: 1em 1em;
+  color: rgb(14, 50, 211);
+  background-color: rgb(213, 235, 15);
+  border-radius: 0.4em;
+  font-weight: 800;
+}
+.our-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: darkcyan;
+}
+.services-sec {
+  display: flex;
+}
+.service-1 {
+  text-decoration: none;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.service-1 > a > img {
+  height: 8em;
+}
+.service-1 > p {
+  width: 70%;
+  text-align: center;
+}
+.our-port {
+  display: flex;
+  margin: 0.4em 0;
+  padding: 5em 0;
+  justify-content: center;
+  flex-direction: column;
+}
+.our-port > h1 {
+  text-align: center;
+}
+
+.port-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+  flex-basis: 100%;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5em;
+
+  align-items: center;
+  color: rgb(27, 125, 211);
+  width: calc(100% / 4);
+}
+.section-2 > h1 {
+  margin: 0;
+}
+.section-2 > h2 {
+  margin: 0;
+}
+.mess-sec {
+  display: flex;
+  justify-content: space-around;
+}
+.forms-1 > form {
+  display: inline-flex;
+  flex-direction: column;
+}
+.forms-1 > form > h1 {
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+}
